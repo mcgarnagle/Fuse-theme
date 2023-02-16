@@ -44,7 +44,9 @@ const appRoutes: Routes = [
     },
     {
         path      : '**',
-        redirectTo: 'apps/dashboards/analytics'
+        redirectTo: 'apps/academy/courses'
+        // path: '**',
+        // redirectTo: 'apps/dashboards/analytics'
     }
 ];
 
